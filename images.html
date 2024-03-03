@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Links</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  section {
+    padding: 20px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .gallery img {
+    width: 75%;
+    border-radius: 5px;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .menu img {
+    width: 75%;
+    border-radius: 5px;
+  }
+
+  
+ </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Image Links</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a> |
+  <a href="#gallery">Gallery</a> |
+  <a href="#menu">Menu</a>
+</nav>
+
+<section id="home">
+  <h2>Home</h2>
+  <p>Welcome to our website! Check out our linked image related to technology:</p>
+  <a href="https://www.privacyshield.gov/ps/article?id=Kenya-Information-Communications-and-Technology-ICT" target="_blank">
+    <img src="Tech.jpg" alt="Technology Image">
+  </a>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <a href="https://naturekenya.org/" target="_blank">
+      <img src="Nature1.jpg" alt="Nature Image 1">
+    </a>
+    <a href="https://naturekenya.org/" target="_blank">
+      <img src="Nature2.jpg" alt="Nature Image 2">
+    </a>
+    <a href="https://naturekenya.org/" target="_blank">
+      <img src="Nature3.jpg" alt="Nature Image 3">
+    </a>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Menu</h2>
+  <div class="menu">  
+        <a href="https://migrationology.com/kenyan-food/" target="_blank">
+        <img src="Platter.jpg" alt="Platter">
+        </a>
+        <a href="https://migrationology.com/kenyan-food/" target="_blank">
+        <img src="Veggies.jpg" alt="Veggies">
+        </a>
+  </div>
+</section>
+
+</body>
+</html>
